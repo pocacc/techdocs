@@ -10,6 +10,6 @@ plugins:
 nav:
   - Guide to using Backstage: index.md
   - More information:
-      - Why Use Backstage in Your Environment?: techdocs/featuresandbenefits.md
-      - Backstage - Features and Benefits: techdocs/implementationguide.md
-      - Implementing Backstage by Accenture: techdocs/whybackstage.md
+      - Why Use Backstage in Your Environment?: files/featuresandbenefits.md
+      - Backstage - Features and Benefits: files/implementationguide.md
+      - Implementing Backstage by Accenture: files/whybackstage.md
