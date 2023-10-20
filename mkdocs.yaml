@@ -10,6 +10,6 @@ plugins:
 nav:
   - Guide to using Backstage: index.md
   - More information:
-      - Migration Process Overview: application-migration/migration-process-overview.md
-      - Migration Process Steps: application-migration/migration-process-steps.md
-      - Learning Path for Developers: application-migration/learning-path-for-developers.md
+      - Why Use Backstage in Your Environment?: techdocs/featuresandbenefits.md
+      - Backstage - Features and Benefits: techdocs/implementationguide.md
+      - Implementing Backstage by Accenture: techdocs/whybackstage.md
