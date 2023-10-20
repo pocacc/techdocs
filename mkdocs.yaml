@@ -8,8 +8,8 @@ plugins:
 
 # Note for content editors, edit only the section below
 nav:
-  - Onboard a developer to OpenShift: index.md
-  - Application Migration:
+  - Guide to using Backstage: index.md
+  - More information:
       - Migration Process Overview: application-migration/migration-process-overview.md
       - Migration Process Steps: application-migration/migration-process-steps.md
       - Learning Path for Developers: application-migration/learning-path-for-developers.md
