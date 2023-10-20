@@ -1,73 +1,86 @@
-# TEST
+# GUIDE TO USING SPOTIFY'S BACKSTAGE APPLICATION FOR DEVELOPERS AND IT EMPLOYEES
 
-A guide for developers and platform engineers to onboard into containers and OpenShift.
+A guide for developers and IT employees to leverage Spotify's Backstage application for efficient development workflows.
 
 ## Introduction
 
-Platform Team set up the OpenShift clusters. Clusters are ready to allocate workloads. Developers want to migrate their applications, but there needs to be a current process to onboard them. This document provides a template that can be used to design your onboarding process or use it as it is.
+Spotify's Backstage application provides a powerful platform for managing the entire development lifecycle. It offers a suite of tools and features designed to streamline development workflows and enhance collaboration. This guide aims to help developers and IT employees make the most out of Backstage's capabilities.
 
-### Developer Team Guide: Where to start for Developers in their modernization Journey
+### Benefits of Using Backstage for Developers and IT Employees
 
-The Developer Team processes to be ready to start their container journey.
+Before diving into the details, let's highlight some of the key advantages of integrating Backstage into your development process:
 
-1. Developer Foundational Learning: Follow the Lear
-2. Application Assessment: Apply Twelve-Factor App for Containers.
+1. **Unified Platform**: Backstage offers a centralized hub for managing applications, services, and infrastructure, reducing fragmentation and enhancing visibility.
 
-[A methodology for developers to build new containerized applications](checklist-for-building-containers.md)
+2. **Efficient Collaboration**: Developers and IT employees can seamlessly collaborate on projects, share knowledge, and stay aligned with project goals.
 
-The application owner and the team will perform a high-Level application assessment to understand the application maturity level, risks, potential changes, and feasibility.
+3. **Streamlined Workflows**: Backstage automates various aspects of the development process, including application provisioning, configuration management, and CI/CD pipeline management.
 
-- [ ] I. Codebase: One codebase tracked in revision control, many deploys
-- [ ] II. Dependencies: Explicitly declare and isolate dependencies
-- [ ] III. Config: Store config in the environment
-- [ ] V. Build, release, run: Strictly separate build and run stages
-- [ ] XI. Logs: Treat logs as event streams
-- [ ] Security and Compliance: Understand security and compliance to be implemented.
+4. **Enhanced Security and Compliance**: Backstage provides robust security features and ensures compliance with industry standards, giving IT employees peace of mind.
 
-3. Request Access to OpenShift
+5. **Comprehensive Monitoring and Observability**: The application integrates with monitoring and observability tools, allowing for real-time insights into the performance of applications and services.
 
-If necessary for your organization, create an automated-repeatable process to gather information about the application and development team.
+6. **Simplified Access Control**: Backstage offers fine-grained access control, ensuring that developers and IT employees have the right permissions for their tasks.
 
-### Platform Team Checklist
+### Getting Started with Backstage
 
-This process describes the Platform Team process to grant access to the developer team and application to OpenShift, considering application and team requirements.
+To begin harnessing the power of Backstage, follow these steps:
 
-#### Step 1 Project Setup (Platform)
+1. **Account Setup**:
 
-This process creates all the required resources for the development team and applications based on their requirements.
+   - Developers and IT employees should create individual accounts on Backstage, ensuring personalized access and preferences.
 
-##### Platform Team Checklist
+2. **Application Discovery**:
 
-Developers will require a new namespace, access to the namespace, and other requirements to have their applications functional.
+   - Explore the Backstage interface to discover the various features and tools available. Familiarize yourself with the layout and navigation.
 
-This is a recommended list to start creating your platform guide to successfully onboard teams and applications into OpenShift.
+3. **Project Creation**:
 
-- [ ] 1- Project Provisioning per Team
-  - [ ] Create namespaces for Lower Level Environment
-    - [ ] Give users access to each LLE and registry
-    - [ ] Projects setup
-    - [ ] Resource Management
-- [ ] 2- Application Configuration in OpenShift
-  - [ ] Application access (If the team specified the inbound/outbound dependencies)
-  - [ ] Network policies per each namespace following company guidelines
-  - [ ] Application route definition
-  - [ ] Firewall rules setup per each component/dependency
-- [ ] 3- CI/CD
-  - [ ] CI/CD access (For ex. Jenkins/OpenShift Pipelines)
-  - [ ] OpenShift access to the company registry. For example: [Quay Container Registry](https://quay.io/)
-- [ ] 4- Integrations required from OpenShift
-  - [ ] Access to the Company Application Logging Tooling
-    - [ ] Create a new index for the application.
-  - [ ] Access to the Company Observability & Monitoring tooling
-- [ ] 5- Security
-  - [ ] Access to any Auth/Authorization/Policies tool that’s required for the application
-    - [ ] Create new policies
-  - [ ] Certificate creation is defined, and guidelines are shared.
-  - [ ] Access to the Company Vault
-  - [ ] Access to the certificates repository
-    - [ ] Create new certificates
-- [ ] 6- Send a welcome email to Developers
+   - IT employees can initiate new projects within Backstage, defining the scope, objectives, and team members involved.
 
-#### Step 2 Welcome OpenShift
+4. **Service Catalog**:
 
-Send confirmation to the user. Developers will follow the Developer Guide for Containers.
+   - Developers can leverage the service catalog to register and manage their applications. This includes specifying dependencies, configurations, and related resources.
+
+5. **Collaboration and Knowledge Sharing**:
+
+   - Utilize Backstage's collaboration features to share insights, document best practices, and communicate with team members.
+
+6. **CI/CD Integration**:
+
+   - Integrate your CI/CD pipelines with Backstage to automate the deployment process and ensure seamless code delivery.
+
+7. **Monitoring and Alerts**:
+
+   - Set up monitoring and alerts for your applications to proactively identify and address any performance issues.
+
+### Advanced Features for IT Employees
+
+For IT employees looking to maximize their use of Backstage, consider exploring the following advanced features:
+
+1. **Custom Integrations**:
+
+   - Integrate Backstage with existing tools and platforms to further streamline workflows and enhance productivity.
+
+2. **Policy Enforcement**:
+
+   - Implement security policies and compliance checks to ensure that applications meet organizational standards.
+
+3. **Advanced Monitoring and Analytics**:
+
+   - Dive deeper into Backstage's monitoring capabilities to gain comprehensive insights into application performance.
+
+4. **Automated Scaling**:
+
+   - Configure auto-scaling rules to dynamically adjust resources based on application demand.
+
+This implementation is being developed by Ramon Maia in collaboration with Accenture Company. Their expertise and industry knowledge contribute significantly to the optimization and effectiveness of the Backstage application.
+
+
+
+---
+
+*Project Information:*
+
+- **Project Creator:** Ramon Maia
+- **Email:** ramon.maia@outlook.com
